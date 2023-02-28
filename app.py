@@ -23,12 +23,12 @@ def index():
 
 
 def generate_prompt(animal):
-    return """Suggest three names for an animal that is a superhero.
+    return """Suggest three characteristics of an animal.
 
 Animal: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-Animal: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
+Names: Small, Sweet, Cute
+Animal: Elephant
+Names: Giant, Fat, Strong
 Animal: {}
 Names:""".format(
         animal.capitalize()
